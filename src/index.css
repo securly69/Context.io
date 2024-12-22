@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.loading-text span {
+    font-family: 'Nunito', sans-serif;
+    color:#423232;
+    position: relative;
+    display: inline-block;
+    animation: waviy 2000ms infinite;
+    animation-delay: calc(0.05s * var(--i));
+}
+
+@keyframes waviy {
+
+    0%,
+    15%,
+    100% {
+        transform: translateY(0);
+    }
+
+    8% {
+        transform: translateY(-0.25em);
+    }
+}
