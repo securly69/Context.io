@@ -31,7 +31,7 @@ export default function Feedback({ isOpen, onClose }) {
                     </div>
                     <button
                         className='bg-con-900 px-[18px] py-[12px] rounded-[5px] mt-[5px]'
-                        onClick={() => window.open('https://contextio.servehttp.com', '_blank', 'noopener noreferrer')} >
+                        onClick={() => window.open('https://form.typeform.com/to/eyGNasyF', '_blank', 'noopener noreferrer')} >
                         <span className="text-lg font-bold text-con-200">Take the Survey</span>
                     </button>
                 </div>
