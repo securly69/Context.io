@@ -17,7 +17,7 @@ export default function Won({ setIsPrevOpen, setIsWordsOpen, game }) {
     const [sharedMsg, displaySharedMsg] = useShareMessage("Share", SHARE_RESET_TIMEOUT)
 
     const handleShareButton = () => {
-        let messageText = `I played context-dot-io.vercel.app #${gameId} and got it in ${attempts} ${guessText}${finalTipText}. \n\n`
+        let messageText = `I played contextio.vercel.app #${gameId} and got it in ${attempts} ${guessText}${finalTipText}. \n\n`
         messageText += chart
 
         if ((isMobile() || isChrome()) && !isFirefox() && navigator.share) {
